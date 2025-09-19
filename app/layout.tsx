@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { josefin } from './ui/fonts';
+import { lusitana } from './ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${josefin.className} antialiased`}>{children}</body>
+      <body className={`${lusitana.className} antialiased`}>{children}</body>
     </html>
   );
 }
